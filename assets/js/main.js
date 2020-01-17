@@ -4,12 +4,12 @@ function changeStatus() {
 	// Status changer
 		var customObj = {
 			"status": [
-				"chugging coffee",
-				"sleep deprived",
+				"finding new coffee spots",
+				"finding new hiking trails",
 				"binging Netflix",
 				"taking naps",
 				"trying to eat healthy",
-				"enjoying warm Canadian weather"
+				"enjoying the warm weather"
 			]
 		};
 		var statusArr = customObj["status"];

@@ -5,11 +5,18 @@ function changeStatus() {
 		var customObj = {
 			"status": [
 				"finding new coffee spots",
-				"finding new hiking trails",
+				"exploring new hiking trails",
 				"binging Netflix",
 				"taking naps",
 				"trying to eat healthy",
-				"enjoying the warm weather"
+				"learning photography",
+				"looking for new hobbies",
+				"eating overpriced avocado toasts",
+				"learning to pronounce açai",
+				"pretending to like kale smoothies",
+				"practising my broken Spanish",
+				"avoiding sunburns",
+				"figuring out how people can only eat salads"
 			]
 		};
 		var statusArr = customObj["status"];

@@ -2817,11 +2817,8 @@
 			margin-bottom: 1.75em;
 		}
 
-		#banner p #changeable{ 
+		#banner p #changeable { 
 			cursor: pointer;
-		}
-
-		#banner p #changeable:hover {
 			text-decoration: underline;
 		}
 

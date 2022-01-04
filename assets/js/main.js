@@ -16,7 +16,9 @@ function changeStatus() {
 				"pretending to like kale smoothies",
 				"practising my broken Spanish",
 				"avoiding sunburns",
-				"figuring out how people can only eat salads"
+				"figuring out how people can only eat salads",
+				"overpaying for my apartment",
+				"trying to keep my houseplants alive"
 			]
 		};
 		var statusArr = customObj["status"];
@@ -37,7 +39,7 @@ function changeStatus() {
 			!function(){function t(t){this.el=t;for(var n=t.className.replace(/^\s+|\s+$/g,"").split(/\s+/),i=0;i<n.length;i++)e.call(this,n[i])}function n(t,n,i){Object.defineProperty?Object.defineProperty(t,n,{get:i}):t.__defineGetter__(n,i)}if(!("undefined"==typeof window.Element||"classList"in document.documentElement)){var i=Array.prototype,e=i.push,s=i.splice,o=i.join;t.prototype={add:function(t){this.contains(t)||(e.call(this,t),this.el.className=this.toString())},contains:function(t){return-1!=this.el.className.indexOf(t)},item:function(t){return this[t]||null},remove:function(t){if(this.contains(t)){for(var n=0;n<this.length&&this[n]!=t;n++);s.call(this,n,1),this.el.className=this.toString()}},toString:function(){return o.call(this," ")},toggle:function(t){return this.contains(t)?this.remove(t):this.add(t),this.contains(t)}},window.DOMTokenList=t,n(Element.prototype,"classList",function(){return new t(this)})}}();
 
 	// Vars.
-		var	$body = document.querySelector('body');
+		var $body = document.querySelector('body');
 
 	// Breakpoints.
 		skel.breakpoints({
@@ -58,59 +60,5 @@ function changeStatus() {
 		changeStatus();
 
 		document.getElementById("changeable").addEventListener("click", changeStatus);
-
-	// Nav.
-		/*var	$nav = document.querySelector('#nav'),
-			$navToggle = document.querySelector('a[href="#nav"]'),
-			$navClose;
-
-		// Event: Prevent clicks/taps inside the nav from bubbling.
-			addEventsListener($nav, 'click touchend', function(event) {
-				event.stopPropagation();
-			});
-
-		// Event: Hide nav on body click/tap.
-			addEventsListener($body, 'click touchend', function(event) {
-				$nav.classList.remove('visible');
-			});
-
-		// Toggle.
-
-			// Event: Toggle nav on click.
-				$navToggle.addEventListener('click', function(event) {
-
-					event.preventDefault();
-					event.stopPropagation();
-
-					$nav.classList.toggle('visible');
-
-				});
-
-		// Close.
-
-			// Create element.
-				$navClose = document.createElement('a');
-					$navClose.href = '#';
-					$navClose.className = 'close';
-					$navClose.tabIndex = 0;
-					$nav.appendChild($navClose);
-
-			// Event: Hide on ESC.
-				window.addEventListener('keydown', function(event) {
-
-					if (event.keyCode == 27)
-						$nav.classList.remove('visible');
-
-				});
-
-			// Event: Hide nav on click.
-				$navClose.addEventListener('click', function(event) {
-
-					event.preventDefault();
-					event.stopPropagation();
-
-					$nav.classList.remove('visible');
-
-				});*/
 
 })();
